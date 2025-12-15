@@ -1,0 +1,122 @@
+@import url(common.css);
+@import url(layout.css);
+
+.icon {align-items: center;}
+.icon li .ic_up {display: block; width: 18px; height: 18px; background: url(../images/main_common_prev.gif) no-repeat center center/contain;}
+.icon li .ic_nx {display: block; margin-right: 5px; width: 18px; height: 18px; background: url(../images/main_common_next.gif) no-repeat center center/contain;}
+.icon li .ic_st {display: block; width: 18px; height: 18px; background: url(../images/main_common_stop.gif) no-repeat center center/contain;}
+
+
+#container {padding: 37px 0px; letter-spacing: -0.5px; margin-bottom: 30px;}
+
+.var_menu {display: none; height: 51px; background: #2e59ac; padding: 0 10px; align-items: center; margin-bottom: 20px;}
+.var_menu h2 {color: #fff; font-weight: 500;}
+.var_menu a {width: 40px; height: 30px; background: url(../images/btn_sub_nav_open.png) no-repeat center center #134697;}
+
+#container .left_side {width: 210px;}
+#container .left_side .top_box {margin-bottom: 10px;border: 1px solid rgba(209,209,209,.5);}
+#container .left_side .side_top {padding:  15px; height: 128px; background: url(./img/sub_aside_label.gif) no-repeat 0 0;}
+#container .left_side .side_top h2 {font-size: 26px; color: #fff;}
+#container .left_side .side_top span {font-size: 11px; color: #B0CDE7;}
+#container .left_side .body_box {padding: 7px 15px; width: 100%; border-bottom: 1px dotted #d1d1d1;}
+#container .left_side .body_box:hover {color:#134697;}
+#container .left_side .body_box h3 {font-size: 13px; position: relative;}
+#container .left_side .body_box h3 i {position: absolute; right:    0; top: 4px; font-size: 8px; color:#e2e2e2}
+#container .left_side .body_box:hover h3 i {color:#666;}
+#container .left_side .body_box:nth-of-type(1) h3 i {color: #666;}
+#container .left_side .body_box:last-of-type {border-bottom: none;}
+
+#container .left_side .mid_box {position: relative; width: 100%; padding: 10px 15px; background: #969fcf; height: 132px; background: url(img/sub_aside_banner.gif) no-repeat left top; border-radius: 4px;}
+#container .left_side .mid_box h2 {color: yellow; font-weight: 600; font-size: 18px; margin: 0 0 5px 0;}
+#container .left_side .mid_box p {color: #fff; font-size: 11px; font-weight: 600; line-height: 14px;}
+#container .left_side .mid_box .icon {position: absolute; right:15px; bottom: 10px; z-index: 1;}
+
+#container .left_side .btm_box {width: 100%; height: 77px; background: #808080; padding: 10px 15px;}
+#container .left_side .btm_box h2 {color: #fff; font-weight: 600; font-size: 18px; margin: 0 0 3px 0;}
+#container .left_side .btm_box h2::after {content: ""; display: inline-block; width: 25px; height: 12px; background: url(./img/sub_vod_icon.png) no-repeat center center; margin-left: 10px; position: relative; top: -2px;}
+#container .left_side .btm_box p {font-size: 11px; font-weight: 300; color: #fff; line-height: 14px;}
+
+#container .right_body {width: 730px;}
+#container .right_body .not_head { margin-bottom: 10px;  padding: 16px 20px; border: 1px solid rgba(209,209,209,.5); border-radius: 5px; position: relative;}
+#container .right_body .not_head .head_box {position: relative}
+#container .right_body .not_head .head_box h1 {font-size: 26px;}
+#container .right_body .not_head .head_box h1::after {content: "대전광역시 상수도사업본부"; color: #999; font-size: 12px; font-weight: 700; margin-left:10px; } 
+#container .right_body .not_head .head_box .home_box {position: absolute; right:0; top:0;}
+#container .right_body .not_head .head_box .home_box .text1 {font-size: 12px;}
+#container .right_body .not_head .head_box .home_box .text1::before {content: ""; display: inline-block; width: 14px; height: 12px; background: url(./img/sub_home_icon.png) no-repeat 0 0; margin-right: 5px;}
+#container .right_body .not_head .head_box .home_box .text1:hover {color: #111;}
+#container .right_body .not_head .head_box .home_box .text1 span {margin: 0 5px 0 10px; position:relative; top: -1px; color: #d1d1d1;}
+#container .right_body .not_head .head_box .home_box .text2 {font-size: 12px; font-weight: 600;}
+
+#container .right_body .prt_box .prt_btn {margin-bottom: 40px; width: 101px; height: 27px; background: url(./img/sub_print_btn.png) no-repeat 0 0;}
+#container .right_body .prt_box  .prt_btn p {padding-left: 7px; line-height: 27px; font-size: 13px; font-weight: 300; color: #111;}
+
+#container .right_body .table1 {border-collapse: collapse; border: 1px solid rgba(209,209,209,1); width: 100%; letter-spacing: 0; margin-bottom: 7px; border-top: 2px solid #808080}
+#container .right_body .table1 td {padding: 7px; font-size: 12px; color: #666;}
+#container .right_body .table1 thead {background: #f0f0f0; }
+#container .right_body .table1 thead th {padding: 7px; text-align: left; font-size: 15px;}
+#container .right_body .table1 tbody th {font-size: 12px; color: #333;}
+#container .right_body .table1 tbody .col_td {padding: 15px; background: #fff;}
+#container .right_body .table1 tbody .a_td a {font-size: 12px; color: #666;  margin: 0 5px 5px 0;}
+#container .right_body .table1 tbody .a_td a:hover {color: #111}
+#container .right_body .table1 tbody .a_td a::before {content: ""; width: 15px; height: 15px; display: inline-block; background: url(./img/icon_file.png) no-repeat 0 0; position: relative; top: 3px; margin-right: 6px;}
+#container .right_body .table1 tbody .in_sp {font-size: 10px; color: #666;}
+#container .right_body .table1 tbody .in_sp2 {color: red;}
+
+
+#container .right_body .list_btn {padding: 3px 14px; background: #808080; color: #fff; font-weight: 500; border-radius: 3px; margin-bottom: 20px;}
+
+#container .right_body .table2 {border-collapse: collapse; border: 1px solid rgba(209,209,209,1); width: 100%; letter-spacing: 0; margin-bottom: 30px; border-top: 2px solid #808080}
+#container .right_body .table2 td a {padding: 7px; font-size: 12px; color: #666;}
+#container .right_body .table2 td a:hover {color: #111;}
+#container .right_body .table2 thead th {padding: 7px; text-align: left; font-size: 15px;}
+#container .right_body .table2 tbody th {font-size: 12px; color: #333;}
+
+#container .right_body .btm_form {background:#e8e8e8; padding: 12px; border-radius: 3px;}
+#container .right_body .btm_form .fld_top {border: none; position: relative;}
+#container .right_body .btm_form .fld_top legend {font-weight: 600;}
+#container .right_body .btm_form .fld_top legend span {position: absolute; right: 10px;}
+#container .right_body .btm_form .fld_top legend span a {font-size: 12px; font-weight: 600; color: #333;}
+#container .right_body .btm_form .fld_top .text_in_box {align-items: top; margin: 5px 0; width: 100%}
+#container .right_body .btm_form .fld_top .text_in_box textarea {font-size: 12px; width: 100%; border-radius: 3px; padding: 5px; background: #e8e8e8; border: 0.5px solid #d1d1d1;}
+#container .right_body .btm_form .fld_top .text_in_box button {width: 105px; height: 33px; border: none; background: #808080; color: #fff; border-radius: 3px; font-weight: 600; margin-left: 50px;}
+
+#container .right_body .btm_form .fld_btn {border: none;}
+#container .right_body .btm_form .fld_btn p {margin-left: 3px; margin-right: 15px; font-size: 14px; font-weight: 300; position: relative; top: -1px;}
+
+#container .right_body .ph_num {border: 0.5px solid #d1d1d1; border-radius: 3px; padding: 5px 10px; margin-top: 10px;}
+#container .right_body .ph_num P {font-size: 12px; font-weight: 600; color: #333;}
+#container .right_body .ph_num P span {color: #666; font-weight: 400;}
+#container .right_body .ph_num P span:first-child {margin-right: 10px;}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #container {justify-content: center; padding: 0 10px;}
+    #container .left_side {display: none;}
+    #container .right_body {width: 100%;}
+   
+    .var_menu {display: flex; justify-content: space-between;;}
+    
+    #container .right_body .prt_box .prt_btn {display: none;}
+
+    #container .right_body .not_head .head_box h1::after {display: none;}
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+
+#container .right_body .not_head {border:none; border-bottom: 1px solid #d1d1d1; padding: 5px}
+#container .right_body .not_head .head_box .home_box {display: none;}
+
+#container .right_body .table1 * {font-size: 10px !important;}
+
+#container .right_body .table2 * {font-size: 10px !important;}
+
+}
